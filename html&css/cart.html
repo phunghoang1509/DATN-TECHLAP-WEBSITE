@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart page</title>
+  <!-- gg font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- cdn tailwindcss -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="min-h-screen w-full py-20 px-[120px] flex flex-col gap-20">
+    <p class="text-base">
+      <span class="text-gray-400">Home</span>
+      <span class="text-gray-600">/Cart</span>
+    </p>
+
+    <div class="w-full flex flex-col gap-10">
+      <div class="grid grid-cols-4">
+        <p class="text-center">Product</p>
+        <p class="text-center">Price</p>
+        <p class="text-center">Quantity</p>
+        <p class="text-center">Subtotal</p>
+      </div>
+
+      <div class="grid grid-cols-4 items-center justify-center justify-items-center">
+        <div class="p-6 flex items-center justify-center gap-5">
+          <img src="./images/laptop.svg" alt="">
+          <h3 class="text-base leading-6">LCD Monitor</h3>
+        </div>
+        <p class="text-black">$650</p>
+        <div class="border border-gray-300 p-2 rounded flex w-fit h-fit gap-2 mx-auto items-center justify-between">
+          <p class="text-base">01</p>
+          <div class="">
+            <img src="./images/arrow-up.svg" alt="">
+            <img src="./images/arrow-down.svg" alt="">
+          </div>
+        </div>
+        <p class="text-black">$650</p>
+      </div>
+
+      <div class="grid grid-cols-4 items-center justify-center justify-items-center">
+        <div class="p-6 flex items-center justify-center gap-5">
+          <img src="./images/laptop.svg" alt="">
+          <h3 class="text-base leading-6">LCD Monitor</h3>
+        </div>
+        <p class="text-black">$650</p>
+        <div class="border border-gray-300 p-2 rounded flex w-fit h-fit gap-2 mx-auto items-center justify-between">
+          <p class="text-base">01</p>
+          <div class="">
+            <img src="./images/arrow-up.svg" alt="">
+            <img src="./images/arrow-down.svg" alt="">
+          </div>
+        </div>
+        <p class="text-black">$650</p>
+      </div>
+    </div>
+
+    <div class="w-full mt-6 flex items-center justify-between">
+      <div class="py-4 font-medium cursor-pointer rounded px-12 border border-gray-400 w-fit">Return To Shop</div>
+      <div class="py-4 font-medium cursor-pointer rounded px-12 border border-gray-400 w-fit">Update Cart</div>
+    </div>
+
+    <div class="flex justify-between w-full gap-[120px]">
+      <div class="flex items-center gap-4 w-1/2">
+        <input type="text" class="border border-gray-300 p-4 rounded w-[112px] flex-1" placeholder="Coupon Code">
+        <button class="bg-[#db4444] text-white py-4 px-12 rounded">Apply Coupon</button>
+      </div>
+      <div class="w-1/2 flex justify-end">
+        <div class="px-4 py-8 rounded border border-gray-400 w-full max-w-[470px]">
+          <h2 class="text-xl font-normal mb-6">Cart Total</h2>
+          <div class="flex justify-between items-center mb-4 pb-4 border-b border-b-gray-400">
+            <p class="text-base">Subtotal:</p>
+            <p class="text-base">$650</p>
+          </div>
+          <div class="flex justify-between items-center mb-4 pb-4 border-b border-b-gray-400">
+            <p class="text-base">Shipping:</p>
+            <p class="text-base">$650</p>
+          </div>
+          <div class="flex justify-between items-center mb-4 pb-4">
+            <p class="text-base">Total:</p>
+            <p class="text-base">$650</p>
+          </div>
+
+          <div class="bg-[#db4444] text-white font-medium text-base py-4 px-12 rounded w-fit mx-auto">Procees to
+            checkout</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

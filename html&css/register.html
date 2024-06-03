@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <!-- gg font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- cdn tailwindcss -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="h-screen w-full gap-[120px] bg-white flex items-center">
+    <div class="w-[55%] overflow-hidden h-screen">
+      <img src="./images/mobile.svg" alt="">
+    </div>
+    <div class="w-[45%] flex flex-col justify-center items-start">
+      <div class="w-full max-w-[530px]">
+        <h2 class="text-[36px] text-left mb-6 font-medium leading-[30px] text-[#262626]">Create an account</h2>
+        <p class="font-normal leading-6 mb-12 text-[#262626] text-base text-left">Enter your details below</p>
+        <form class="w-full flex flex-col gap-10" autocomplete="off">
+          <div class="">
+            <input type="text" class="border-b w-full py-2 border-b-gray-400 outline-none focus:border-gray-700"
+              placeholder="Name">
+          </div>
+          <div class="">
+            <input type="text" class="border-b w-full py-2 border-b-gray-400 outline-none focus:border-gray-700"
+              placeholder="Email or Phone Number">
+          </div>
+          <div class="">
+            <input type="text" class="border-b w-full py-2 border-b-gray-400 outline-none focus:border-gray-700"
+              placeholder="Password">
+          </div>
+          <!-- create account button -->
+          <button class="border-none text-white bg-[#DB4444] py-4 w-full text-center rounded">Create Account</button>
+          <!-- button google -->
+          <button class="border rounded border-gray-400 py-4 text-center flex justify-center items-center gap-3">
+            <span>
+              <img src="./images/google.svg" alt="">
+            </span>
+            <span class="text-base">Sign up with Google</span>
+          </button>
+        </form>
+        <p class="text-center text-[#4d4d4d] mt-8">
+          <span class="text-base">Already have account?</span>
+          <span class="leading-6 font-medium text-base">Log in</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

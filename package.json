@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "cloudinary": "^2.0.3",
+    "cors": "^2.8.5"
+  }
+}

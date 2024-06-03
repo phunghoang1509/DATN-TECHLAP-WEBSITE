@@ -1,0 +1,210 @@
+{
+  "categories": [
+    {
+      "_id": "65b3ed0e49d98167851d92f4",
+      "name": "Macbook",
+      "slug": "Macbook"
+    },
+    {
+      "_id": "65b3ed2249d98167851d92f6",
+      "name": "Dell",
+      "slug": "Dell"
+      
+    },
+    {
+      "_id": "65b3ed3049d98167851d92f8",
+      "name": "HP",
+      "slug": "HP"
+      
+    },
+    {
+      "_id": "65b3ed8449d98167851d92fa",
+      "name": "Asus",
+      "slug": "Asus"
+     
+    },
+    {
+      "_id": "65b3ed8e49d98167851d92fc",
+      "name": "Lenovo",
+      "slug": "Lenovo"
+   
+    }
+  ]
+},
+
+{
+    "message": "Lấy tất cả màu thành công",
+    "color": [
+        {
+            "_id": "65b528fe4604b696bdc2a245",
+            "name": "Đen",
+            
+        },
+        {
+            "_id": "65b5387808ea657d8c2a1144",
+            "name": "Xám",
+          
+        },
+        {
+            "_id": "65b538f979b6a592eb772229",
+            "name": "Bạc",
+          
+        },
+        {
+            "_id": "65b5398679b6a592eb77222b",
+            "name": "Pink",
+          
+        },
+        {
+            "_id": "65b5399c79b6a592eb77222d",
+            "name": "Trắng",
+         
+        }
+    ]
+},
+
+{
+
+    "cpu": [
+        {
+            "_id": "65b53a91665a891ebf932cf7",
+            "name": "Apple",
+            "type": " 8 nhân với 4 nhân hiệu năng cao và 4 nhân tiết kiệm điện",
+           
+        },
+        {
+            "_id": "65b53b04346e643321b32223",
+            "name": "Asus",
+            "type": " AMD Ryzen 5 7520U (4MB cache, up to 4.3 GHz, 4 lõi/8 luồng)",
+          
+        },
+        {
+            "_id": "65b53b21346e643321b32225",
+            "name": "Lenovo",
+            "type": "Intel Core i5-1135G7 (4C / 8T, 2.4 / 4.2GHz, 8MB)",
+          
+        },
+        {
+            "_id": "65b53b37346e643321b32227",
+            "name": "Hp",
+            "type": "Intel Core i5-1235U ( 1.3 GHz - 4.4GHz / 12MB / 10 nhân, 12 luồng )",
+         
+        },
+        {
+            "_id": "65b53b98346e643321b3222a",
+            "name": "Dell",
+            "type": "Intel Core i5-1135G7 (8 MB cache, 4 nhân, 8 luồng, xung nhịp tốt đa 4.20 GHz Turbo)",
+            
+        }
+    ]
+},
+{
+    "ram": [
+        {
+            "_id": "65b53c6333bbb91bae92b2a8",
+            "name": "Apple",
+            "type": "8G LPDDR4",
+           
+        },
+        {
+            "_id": "65b53c7833bbb91bae92b2aa",
+            "name": "Dell",
+            "type": "8G DDR4 2666 MHz",
+          
+        },
+        {
+            "_id": "65b53c9033bbb91bae92b2ac",
+            "name": "Asus",
+            "type": "16G LPDDR5 onboard",
+            
+        },
+        {
+            "_id": "65b53caa33bbb91bae92b2ae",
+            "name": "Lenovo",
+            "type": "8G DDR4",
+        
+        },
+        {
+            "_id": "65b53d4802498fd28b8d5a5e",
+            "name": "Hp",
+            "type": "8G 3200MHz",
+          
+        }
+    ]
+},
+{
+   
+    "hardDisk": [
+        {
+            "_id": "65b53e182ccde4f5c9646944",
+            "name": "Apple",
+            "type": "256GB SSD",
+           
+        },
+        {
+            "_id": "65b53e2b2ccde4f5c9646946",
+            "name": "Dell",
+            "type": "256GB M.2 PCIe NVMe",
+          
+        },
+        {
+            "_id": "65b53e3c2ccde4f5c9646948",
+            "name": "Asus",
+            "type": "SSD 512GB M.2 NVMe PCIe 3.0",
+           
+        },
+        {
+            "_id": "65b53e4f2ccde4f5c964694a",
+            "name": "Lenovo",
+            "type": "512GB SSD",
+           
+        },
+        {
+            "_id": "65b53eef89e03b9b817fef24",
+            "name": "Hp",
+            "type": "256GB SSD M.2 NVMe",
+        
+        }
+    ]
+},
+{
+   
+    "graphicCard": [
+        {
+            "_id": "65b540a58b86146cc1469015",
+            "name": "Apple",
+            "type": "GPU 7 nhân, 16 nhân Neural Engine",
+          
+        },
+        {
+            "_id": "65b540b58b86146cc1469017",
+            "name": "Dell",
+            "type": "Intel Iris Xe Graphics",
+         
+        },
+        {
+            "_id": "65b540c58b86146cc1469019",
+            "name": "Asus",
+            "type": "AMD Radeon Graphics",
+          
+        },
+        {
+            "_id": "65b540d48b86146cc146901b",
+            "name": "Lenovo",
+            "type": "Intel Iris Xe Graphics",
+         
+        },
+        {
+            "_id": "65b5411fe1b54058e30cb8c5",
+            "name": "Lenovo",
+            "type": "Intel Iris Xe Graphics",
+          
+        },
+        {
+            "_id": "65b54189e1b54058e30cb8cc",
+            "name": "Hp",
+            "type": "Intel Iris Xe Graphics",
+           
+        }
+    ]
+}
